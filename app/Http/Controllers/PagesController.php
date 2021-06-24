@@ -15,4 +15,7 @@ class PagesController extends Controller
     public function about(){
         return view('layout/about');
     }
+    public function login(){
+        return view('login');
+    }
 }
