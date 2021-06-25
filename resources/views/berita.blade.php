@@ -71,7 +71,6 @@
         <hr id="right">
     </div>
 <div class="headline">
-
     <div class="h1">
         <img src="img/berita/h1.jpg" alt="" width="200" height="250">
         <p class="title">Headline</p>
