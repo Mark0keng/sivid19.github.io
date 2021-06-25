@@ -6,6 +6,6 @@
     <a class="kontak" href="/kontak">Kontak</a>
     <button class="button1" style="background-color: #f44336;"><p>Sign up</p></button>
     <form action="/login">
-    <button class="button2" style="background-color: white">Login</button>
+    <button class="button2" style="background-color: white; height: 20px; margin-top:4px;">Login</button>
     </form>
 </div>
