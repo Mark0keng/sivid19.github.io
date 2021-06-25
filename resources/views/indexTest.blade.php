@@ -4,8 +4,6 @@
 
 @section('title', 'Welcome')
 
-
-
 @section('content')
 	<div class="slide-atas">
 		<div class="slidershow middle">
@@ -42,7 +40,7 @@
 		</div>
 	</div>
 
-	<div class="layanan-home">
+	<div class="layanan-home" id="service">
 		<h1 style="text-align:center; font-size:40px;">Layanan</h1>
 		<div class="slide-cards">
 			<div class="card1">
@@ -61,7 +59,7 @@
 	</div>
 
 	<div class="aboutbar" style="margin-top:-2px; margin-bottom:-30px;">
-	<div class="container-12">
+	<div class="container-12" id="about">
             <div class="header">
                 <h1 style="font-weight: bold; font-size: 45px; margin-bottom:40px;">About</h1>
             </div>
