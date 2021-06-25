@@ -17,7 +17,10 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
@@ -49,7 +52,8 @@ q:before, q:after {
     margin:auto;
 }
 
-.top-bar .services{
+
+.top-bar .services, .dashboard{
     position:absolute;
     left: 300px;
 }
@@ -59,9 +63,9 @@ q:before, q:after {
     left: 450px;
 }
 
-.top-bar .kontak{
+.top-bar .kontak, .profile{
     position:absolute;
-    left: 590px;
+    left: 610px;
 }
 
 .top-bar .logo{
@@ -220,6 +224,10 @@ q:before, q:after {
     display: flex;
 }
 
+.loginPage .right{
+    margin-left: 150px;
+}
+
 .loginPage .right .forgot{
     color:#F25353;
     text-align: left;
@@ -281,4 +289,100 @@ q:before, q:after {
     text-decoration: none;
     color: #F25353;
     font-size: 10pt;
+}
+
+.top-bar .service{
+      border: none;
+      background-color: #C71414;
+      color: white;
+      width: 110px;
+      font-size: 17px;
+      position:absolute;
+      left: 450px;
+      margin-top: 8.5px;
+  }
+
+.top-bar .service .label{
+      text-align: right;
+  }
+
+.top-bar .logout{
+    position:absolute;
+    right: 100px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: none;
+    box-shadow: 1px 1px 1px 0px black;
+    background-color:none;
+    color: white;
+    width: 70px;
+    text-align: center;
+    font-size: 10pt;
+    height: 25px;
+    top: 7px;
+}
+
+.berita .header{
+    display: block;
+    margin-top: -20px;
+}
+
+.berita .header p{
+    font-weight: bold;
+}
+
+.berita .header .sivid{
+    color: #F25353;
+    font-size: 16pt;
+}
+
+.headline .h1, .h2, .h3, .h4, .h5, .h6{
+    display: inline-block;
+    width: 25%;
+    height: 370px;
+    margin: 50px 0 0px 50px;
+    padding: 5px;
+}
+
+.headline * img{
+    display: block;
+    margin: 0 auto 30px auto;
+}
+
+.headline * .title{
+    text-align: center;
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+.headline * p{
+    text-align: center;
+}
+
+.titleHeadline{
+    margin-top: 30px;
+}
+
+.titleHeadline #left{
+    width: 40%;
+    background-color: #F25353;
+    border: 1px solid #F25353;
+    display: inline-block;
+    margin-bottom: 0;
+}
+
+.titleHeadline p{
+    display: inline-block;
+    color: #F25353;
+    font-size: 14pt;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.titleHeadline #right{
+    width: 28%;
+    background-color: #F25353;
+    border: 1px solid #F25353;
+    display: inline-block;
+    position: absolute;
+    right: 190px;
 }

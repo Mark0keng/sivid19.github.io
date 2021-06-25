@@ -18,4 +18,7 @@ class PagesController extends Controller
     public function login(){
         return view('login');
     }
+    public function berita(){
+        return view('berita');
+    }
 }
