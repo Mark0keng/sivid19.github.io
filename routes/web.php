@@ -16,11 +16,8 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', 'App\Http\Controllers\PagesController@homeTest');
-<<<<<<< HEAD
 
 Route::get('/dashboard', 'App\Http\Controllers\PagesController@dashboard');
-=======
 Route::get('/login', 'App\Http\Controllers\PagesController@login');
 Route::get('/signup', 'App\Http\Controllers\PagesController@signup');
 Route::get('/berita', 'App\Http\Controllers\PagesController@berita');
->>>>>>> 19c72396924dac01bf45dc12d8945b81668ec616
