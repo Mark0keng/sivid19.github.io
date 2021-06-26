@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Latihan membuat website</title>
+	<title>SIVID-19</title>
 	<link rel="stylesheet" href="../css/layout.css">
 </head>
 <body>
