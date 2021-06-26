@@ -1,95 +1,176 @@
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
-
 
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
 }
 body {
-	line-height: 1;
+    line-height: 1;
 }
-ol, ul {
-	list-style: none;
+ol,
+ul {
+    list-style: none;
 }
-blockquote, q {
-	quotes: none;
+blockquote,
+q {
+    quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: "";
+    content: none;
 }
-.top-bar{
-	position: fixed;
-	height: 40px;
-	top: 0px;
-	right: 0px;
-	left: 0px;
-	background-color: #C74058;
-	z-index: 10;
-    width:960px;
-    margin:auto;
+.top-bar {
+    position: fixed;
+    height: 40px;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    background-color: #c74058;
+    z-index: 10;
+    width: 960px;
+    margin: auto;
 }
 
-
-.top-bar .services, .dashboard{
-    position:absolute;
+.top-bar .services,
+.dashboard {
+    position: absolute;
     left: 300px;
 }
 
-.top-bar .about{
-    position:absolute;
+.top-bar .about {
+    position: absolute;
     left: 450px;
 }
 
-.top-bar .kontak, .profile{
-    position:absolute;
+.top-bar .kontak,
+.profile {
+    position: absolute;
     left: 610px;
 }
 
-.top-bar .logo{
-    position:absolute;
+.top-bar .logo {
+    position: absolute;
     left: 65px;
 }
 
-.top-bar .button1{
-    position:absolute;
-    right:150px;
-    top:10px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+.top-bar .button1 {
+    position: absolute;
+    right: 150px;
+    top: 10px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     box-shadow: 1px 1px 1px 0px black;
     border: none;
 }
 
-.top-bar .button2{
-    position:absolute;
+.top-bar .button2 {
+    position: absolute;
     right: 50px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     border: none;
     box-shadow: 1px 1px 1px 0px black;
     background-color: white;
-    color: #C71414;
+    color: #c71414;
     width: 50px;
     text-align: center;
     font-size: 10pt;
@@ -97,178 +178,178 @@ q:before, q:after {
     top: 5px;
 }
 
-
-.top-bar img{
-    width:30px;
-    height:30px;
-    margin-left:30px;
-    margin-top:4px;
-    top:8px;
+.top-bar img {
+    width: 30px;
+    height: 30px;
+    margin-left: 30px;
+    margin-top: 4px;
+    top: 8px;
 }
 
-.top-bar a{
-    text-decoration:none;
-    color:white;
-    font-size:18px;
+.top-bar a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
     line-height: 40px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.container{
-    width:960px;
-    margin:auto;
-    margin-top:40px;
-    min-height:570px;
-    background-color:white;
-    padding:30px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    box-sizing:border-box;
+.container {
+    width: 960px;
+    margin: auto;
+    margin-top: 40px;
+    min-height: 570px;
+    background-color: white;
+    padding: 30px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
 }
 
-.footer{
-    width:960px;
-    height:180px;
+.footer {
+    width: 960px;
+    height: 180px;
     background: green;
-    margin:auto;
-    box-sizing:border-box;
-    display:flex;
-    background-color: #C74058;
+    margin: auto;
+    box-sizing: border-box;
+    display: flex;
+    background-color: #c74058;
 }
 
-.contact{
-    width:320px;
+.contact {
+    width: 320px;
     height: 180px;
-    line-height:30px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color:white;
-    box-sizing:border-box;
-    padding:30px;
-    font-size:20px;     
+    line-height: 30px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    box-sizing: border-box;
+    padding: 30px;
+    font-size: 20px;
 }
 
-.contact h2{
-    font-weight:bold;
+.contact h2 {
+    font-weight: bold;
 }
 
-.lokasi h2{
-    font-size:20px;
-    font-weight:bold;
-
+.lokasi h2 {
+    font-size: 20px;
+    font-weight: bold;
 }
 
-.sosmed{
-    width:320px;
+.sosmed {
+    width: 320px;
     height: 180px;
-    line-height:30px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color:white;
-    box-sizing:border-box;
-    padding:30px;
-    font-size:16px;   
+    line-height: 30px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    box-sizing: border-box;
+    padding: 30px;
+    font-size: 16px;
 }
 
-.lokasi{
-    width:320px;
+.lokasi {
+    width: 320px;
     height: 180px;
-    line-height:30px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color:white;
-    box-sizing:border-box;
-    padding:30px;
-    font-size:16px;   
+    line-height: 30px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    box-sizing: border-box;
+    padding: 30px;
+    font-size: 16px;
 }
-.lokasi a{
-    text-decoration:none;
-    color:white;
+.lokasi a {
+    text-decoration: none;
+    color: white;
 }
-.contact a{
+.contact a {
     display: block;
     text-decoration: none;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color:white;
-    font-size:16px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: 16px;
 }
 
-.sosmed img{
-    width:20px;
-    height:20px;
+.sosmed img {
+    width: 20px;
+    height: 20px;
 }
 
-.sosmed .fb img .foto{
-    width:30px;
-    height:30px;
+.sosmed .fb img .foto {
+    width: 30px;
+    height: 30px;
 }
 
-.ig{
-    display:flex;
+.ig {
+    display: flex;
 }
 
-.ig p{
+.ig p {
     margin-left: 2px;
 }
 
-.twitter{
-    display:flex;
+.twitter {
+    display: flex;
 }
 
-.fb{
-    display:flex;
+.fb {
+    display: flex;
 }
 
-.sosmed h2{
-    font-size:20px;
-    font-weight:bold;
+.sosmed h2 {
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .loginPage {
     display: flex;
 }
 
-.loginPage .right{
+.loginPage .right {
     margin-left: 150px;
 }
 
-.loginPage .right .forgot{
-    color:#F25353;
+.loginPage .right .forgot {
+    color: #f25353;
     text-align: left;
     margin-top: -10px;
     margin-left: 155px;
     margin-bottom: 30px;
 }
 
-.loginPage .right .email, .password{
+.loginPage .right .email,
+.password {
     font-size: 14pt;
-    color: #F25353;
+    color: #f25353;
     margin-left: 13px;
     padding: 5px;
     display: block;
     font-weight: bold;
 }
 
-.loginPage .right .inputEmail, .inputPassword{
+.loginPage .right .inputEmail,
+.inputPassword {
     margin-left: 15px;
     border-radius: 5px;
-    border: 3px solid #F25353;
+    border: 3px solid #f25353;
     display: block;
     padding: 5px;
     margin-bottom: 20px;
     width: 250px;
 }
 
-.loginPage .right .label{
+.loginPage .right .label {
     font-weight: bold;
     font-size: 30pt;
     padding: 5px;
     margin: 10px;
-    color:#F25353;
+    color: #f25353;
     margin-bottom: 40px;
 }
 
-.loginPage .right .loginButton{
+.loginPage .right .loginButton {
     margin-left: 70px;
     margin-right: 50px;
     padding: 10px;
-    background-color: #F25353;
+    background-color: #f25353;
     border-radius: 20px;
     border: none;
     color: white;
@@ -279,40 +360,40 @@ q:before, q:after {
     display: block;
 }
 
-.loginPage .right .regis{
+.loginPage .right .regis {
     font-size: 10pt;
     display: inline;
     margin-left: 20px;
 }
 
-.loginPage .right a{
+.loginPage .right a {
     text-decoration: none;
-    color: #F25353;
+    color: #f25353;
     font-size: 10pt;
 }
 
-.top-bar .service{
-      border: none;
-      background-color: #C74058;
-      color: white;
-      width: 110px;
-      font-size: 17px;
-      position:absolute;
-      left: 450px;
-      margin-top: 8.5px;
-  }
+.top-bar .service {
+    border: none;
+    background-color: #c74058;
+    color: white;
+    width: 110px;
+    font-size: 17px;
+    position: absolute;
+    left: 450px;
+    margin-top: 8.5px;
+}
 
-.top-bar .service .label{
-      text-align: right;
-  }
+.top-bar .service .label {
+    text-align: right;
+}
 
-.top-bar .logout{
-    position:absolute;
+.top-bar .logout {
+    position: absolute;
     right: 100px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     border: none;
     box-shadow: 1px 1px 1px 0px black;
-    background-color:none;
+    background-color: none;
     color: white;
     width: 70px;
     text-align: center;
@@ -321,22 +402,27 @@ q:before, q:after {
     top: 7px;
 }
 
-.berita .header{
+.berita .header {
     display: block;
     margin-top: -75px;
 }
 
-.berita .header p{
+.berita .header p {
     font-weight: bold;
 }
 
-.berita .header .sivid{
-    color: #F25353;
+.berita .header .sivid {
+    color: #f25353;
     font-size: 16pt;
     margin-bottom: -30px;
 }
 
-.headline .h1, .h2, .h3, .h4, .h5, .h6{
+.headline .h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
     display: inline-block;
     width: 25%;
     height: 370px;
@@ -344,76 +430,76 @@ q:before, q:after {
     padding: 5px;
 }
 
-.headline * img{
+.headline * img {
     display: block;
     margin: 0 auto 10px auto;
 }
 
-.headline * .title{
+.headline * .title {
     text-align: center;
     margin-top: 5px;
     font-weight: bold;
 }
 
-.headline * p{
+.headline * p {
     text-align: center;
 }
 
-.titleHeadline{
+.titleHeadline {
     margin-top: 30px;
 }
 
-.titleHeadline #left{
+.titleHeadline #left {
     width: 40%;
-    background-color: #F25353;
-    border: 1px solid #F25353;
+    background-color: #f25353;
+    border: 1px solid #f25353;
     display: inline-block;
     margin-bottom: 0;
 }
 
-.titleHeadline p{
+.titleHeadline p {
     display: inline-block;
-    color: #F25353;
+    color: #f25353;
     font-size: 14pt;
     margin-left: 20px;
     font-weight: bold;
 }
 
-.titleHeadline #right{
+.titleHeadline #right {
     width: 28%;
-    background-color: #F25353;
-    border: 1px solid #F25353;
+    background-color: #f25353;
+    border: 1px solid #f25353;
     display: inline-block;
     position: absolute;
     right: 225px;
 }
-.navigation{
+.navigation {
     position: absolute;
     top: 530px;
 }
 
-.slidershow{
+.slidershow {
     margin-top: -20px;
-    width:600px;
-    height:400px;
-    overflow:hidden;
+    width: 600px;
+    height: 400px;
+    overflow: hidden;
 }
 
-.middle{
-    position:absolute;
+.middle {
+    position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
-.navigation{
+.navigation {
     position: absolute;
     bottom: 20px;
     left: 50%;
     transform: translatex(-50%);
 }
 
-.bar{
+.bar {
     width: 50px;
     height: 10px;
     border: 2px solid #fff;
@@ -421,64 +507,64 @@ q:before, q:after {
     cursor: pointer;
 }
 
-input[name="r"]{
+input[name="r"] {
     position: absolute;
     visibility: hidden;
 }
 
-.bar:hover{
+.bar:hover {
     background: #fff;
 }
 
-.slides{
+.slides {
     width: 500%;
     height: 100%;
     display: flex;
 }
 
-.slide{
+.slide {
     width: 20%;
     transition: 0.2s;
 }
 
-.slide img{
+.slide img {
     width: 100%;
     height: 100%;
 }
 
-#r1:checked ~ .s1{
+#r1:checked ~ .s1 {
     margin-left: 0;
 }
 
-#r2:checked ~ .s1{
+#r2:checked ~ .s1 {
     margin-left: -20%;
 }
 
-#r3:checked ~ .s1{
+#r3:checked ~ .s1 {
     margin-left: -40%;
 }
 
-#r4:checked ~ .s1{
+#r4:checked ~ .s1 {
     margin-left: -60%;
 }
 
-#r5:checked ~ .s1{
+#r5:checked ~ .s1 {
     margin-left: -80%;
 }
 
-.layanan-home{
-    background-color: #D6D8D7;
+.layanan-home {
+    background-color: #d6d8d7;
     width: 960px;
     height: 480px;
     margin-top: -30px;
     margin-left: -30px;
     margin-bottom: -30px;
-    box-sizing:border-box;
-    padding:30px;
+    box-sizing: border-box;
+    padding: 30px;
 }
 
-.slide-atas{
-    background-color: #F8CACA;
+.slide-atas {
+    background-color: #f8caca;
     width: 960px;
     height: 610px;
     margin-top: -50px;
@@ -486,14 +572,14 @@ input[name="r"]{
     margin-bottom: -30px;
 }
 
-h1{
+h1 {
     font-size: 25px;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     margin-top: 30px;
     font-weight: bold;
 }
 
-.card1{
+.card1 {
     width: 250px;
     height: 250px;
     border-radius: 30px;
@@ -504,31 +590,7 @@ h1{
     box-sizing: border-box;
 }
 
-.card1:hover{
-    width: 250px;
-    height: 250px;
-    border-radius: 30px;
-    background-color: white;
-    display: inline-block;
-    margin-right: 30px;
-    padding: 10px;
-    box-sizing: border-box;
-    box-shadow: 3px 1px 1px 1px #888888;
-    transition: 0.5s;
-}
-
-.card2{
-    width: 250px;
-    height: 250px;
-    border-radius: 30px;
-    background-color: white;
-    display: inline-block;
-    margin-right: 30px;
-    padding: 10px;
-    box-sizing: border-box;
-}
-
-.card2:hover{
+.card1:hover {
     width: 250px;
     height: 250px;
     border-radius: 30px;
@@ -541,7 +603,31 @@ h1{
     transition: 0.5s;
 }
 
-.card3{
+.card2 {
+    width: 250px;
+    height: 250px;
+    border-radius: 30px;
+    background-color: white;
+    display: inline-block;
+    margin-right: 30px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.card2:hover {
+    width: 250px;
+    height: 250px;
+    border-radius: 30px;
+    background-color: white;
+    display: inline-block;
+    margin-right: 30px;
+    padding: 10px;
+    box-sizing: border-box;
+    box-shadow: 3px 1px 1px 1px #888888;
+    transition: 0.5s;
+}
+
+.card3 {
     width: 250px;
     height: 250px;
     border-radius: 30px;
@@ -551,33 +637,32 @@ h1{
     box-sizing: border-box;
 }
 
-.card3:hover{
+.card3:hover {
     transition: 0.5s;
     box-shadow: 3px 1px 1px 1px #888888;
 }
 
-.slide-cards{
+.slide-cards {
     text-align: center;
     margin-top: 50px;
 }
 
-.slide-cards img{
+.slide-cards img {
     width: 150px;
     height: 150px;
     border-radius: 10px;
     margin-top: 20px;
 }
 
-*{
-    box-sizing:border-box;
+* {
+    box-sizing: border-box;
 }
 
-.slide-cards p{
+.slide-cards p {
     margin-top: 25px;
     font-weight: bold;
     font-family: arial;
 }
-
 
 .container-12 {
     text-align: center;
@@ -634,7 +719,7 @@ h1{
     margin: 20px 0;
     font-weight: lighter;
     color: #4e4e4e;
-    background-color: #D6D8D7;
+    background-color: #d6d8d7;
 }
 
 .social-links {
@@ -654,9 +739,50 @@ h1{
     color: #444;
 }
 
-.aboutbar{
+.aboutbar {
     width: 960px;
     height: 950px;
-    margin-top:20px;
+    margin-top: 20px;
     margin-left: -30px;
+}
+
+.signUpPage .page-tittle {
+    font-size: 20pt;
+}
+
+.signupPage .form-group {
+    font-weight: 500;
+    font-size: 15pt;
+    padding: 5px;
+    margin: 10px;
+    color: #f25353;
+}
+
+.signupPage .signupButton {
+    margin-left: 10px;
+    margin-right: 50px;
+    padding: 10px;
+    background-color: #f25353;
+    border-radius: 30px;
+    border: none;
+    color: white;
+    width: 200px;
+    height: 50px;
+    font-size: 15pt;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.signupPage .input {
+    margin-left: 15px;
+    border-radius: 5px;
+    border: 3px solid #f25353;
+    display: block;
+    padding: 5px;
+    margin-bottom: 20px;
+    width: 250px;
+}
+
+.signUpPage .h1 {
+    color: #f25353;
 }
