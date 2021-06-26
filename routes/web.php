@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\PagesController;
+
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -14,3 +16,5 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', 'App\Http\Controllers\PagesController@homeTest');
+
+Route::get('/dashboard', 'App\Http\Controllers\PagesController@dashboard');

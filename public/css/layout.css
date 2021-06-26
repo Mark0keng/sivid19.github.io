@@ -43,7 +43,7 @@ q:before, q:after {
 	top: 0px;
 	right: 0px;
 	left: 0px;
-	background-color: #C71414;
+	background-color: #C74058;
 	z-index: 10;
     width:960px;
     margin:auto;
@@ -105,10 +105,11 @@ q:before, q:after {
 
 .container{
     width:960px;
+    position: relative;
     margin:auto;
     margin-top:40px;
-    height:700px;
-    background-color:salmon;
+    height:auto;
+    background-color:rgb(255, 255, 255);
     padding:30px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     box-sizing:border-box;
@@ -121,7 +122,7 @@ q:before, q:after {
     margin:auto;
     box-sizing:border-box;
     display:flex;
-    background-color: #C71414;
+    background-color: #C74058;
 }
 
 .contact{
