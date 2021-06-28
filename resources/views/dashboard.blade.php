@@ -1,4 +1,4 @@
-@extends('layout.main')
+@extends('layout.guest-login.main')
 
 @section('title', 'Dashboard')
 
@@ -11,7 +11,7 @@
 	<p class="welcome">Selamat Datang</p>
   <p class="user">User</p>
 
-  <a href="#"><button class="btn-berita">Cek Berita</button></a>
+  <a href="/berita"><button class="btn-berita">Cek Berita</button></a>
 
   <!-- Slideshow container -->
   <div class="slideshow-container">
@@ -19,7 +19,7 @@
   <div class="mySlides fade">
     <div class="numbertext">1 / 3</div>
     <img src="slide_1.png" style="width:100%">
-    <div class="text">Massive Covid Demo in India</div>
+    <div class="text">Massive Covid Demo</div>
   </div>
 
   <div class="mySlides fade">
@@ -51,17 +51,23 @@
   <!-- ImgButton Menu -->
   <div class="card">
     <div class="imgbtn-1">
-      <input type="image" src="tes_covid.png"   name="btn-tescovid" class="btTxtsubmit"   id="saveForm" />
+      <a href="/berita">
+        <img src="tes_covid.png" alt="btn_tes" class="btTxtsubmit">
+      </a>
       <p class="tescovid">Layanan Test<br>Covid</p>
     </div>
 
     <div class="imgbtn-2">
-      <input type="image" src="vaksin_covid.png"   name="btn-tescovid" class="btTxtsubmit-1"   id="saveForm" />
+      <a href="">
+      <img src="vaksin_covid.png" alt="btn_tes" class="btTxtsubmit">
+      </a>
       <p class="tescovid">Layanan Vaksin<br>Covid</p>
     </div>
 
     <div class="imgbtn-3">
-      <input type="image" src="alat_kesehatan.png"   name="btn-tescovid" class="btTxtsubmit-1"   id="saveForm" />
+    <a href="">
+      <img src="alat_kesehatan.png" alt="btn_tes" class="btTxtsubmit">
+    </a>
       <p class="tescovid">Alat Kesehatan</p>
     </div>
   </div>

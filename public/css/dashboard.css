@@ -11,7 +11,7 @@
 
 .btn-berita{
     position: absolute;
-    right: 10px;
+    right: 30px;
     background-color: #EC5C5C;
     color: white;
     padding: 5px 10px;
@@ -126,20 +126,22 @@
 
 .imgbtn-2{
     position: absolute;
-    top: 50px;
+    top: 0px;
     left: 310px;
 }
 
 .imgbtn-3{
     position: absolute;
-    top: 50px;
+    top: 0px;
     left: 620px;
 }
 
 .btTxtsubmit{
+    border-radius: 20px;
     margin-top: 50px;
     width: 300px;
     height: 300px;
+    box-shadow: 0 9px 9px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
 .tescovid{
